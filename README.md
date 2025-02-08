@@ -1,6 +1,8 @@
-# Minimal
+# Terminal
 
-Minimal is a minimalistic astro theme for blogs.
+Terminal is a minimalistic terminal-inspired astro theme for blogs.
+
+It's based from the minimalistic theme from [ekmas](https://github.com/ekmas).
 
 ## Get started
 
@@ -8,7 +10,7 @@ Minimal is a minimalistic astro theme for blogs.
 
 ## Features
 
-- Astro v4
+- Astro v5
 - Tailwind for styling
 - Responsive & SEO-friendly
 - Dark/Light mode support
