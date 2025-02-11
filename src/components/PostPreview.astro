@@ -4,15 +4,15 @@ const { url, title, description, pubDate } = Astro.props
 
 <div class="mb-[60px] last:mb-0">
   <div class="w-max">
-    <a class="group text-accentColor duration-200" href={url}>
+    <a class="group text-accentColorLight1 dark:text-accentColorDark1 duration-200" href={url}>
       <h2
         transition:name={`${title}-${pubDate}`}
         class="text-2xl font-medium w500:text-lg"
       >
-        {title}
+        > {title}
       </h2>
       <span
-        class="relative bottom-0.5 block h-0.5 max-w-0 bg-accentColor transition-all duration-300 group-hover:max-w-full"
+        class="relative bottom-0.5 block h-0.5 max-w-0 bg-accentColorLight1 dark:bg-accentColorDark1  transition-all duration-300 group-hover:max-w-full"
       ></span>
     </a>
   </div>

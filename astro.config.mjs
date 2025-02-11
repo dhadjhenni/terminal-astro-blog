@@ -24,5 +24,15 @@ export default defineConfig({
     mdx(),
     react()
   ],
-  site: 'https://astro-minimal.netlify.app/'
+  site: 'https://astro-minimal.netlify.app/',
+   markdown: {
+    shikiConfig: {
+      theme: 'github-light',
+      themes: {
+        light: 'github-light',
+        dark: 'dracula'
+      },
+      wrap: true
+    }
+  }
 })

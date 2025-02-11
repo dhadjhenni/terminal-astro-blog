@@ -2,6 +2,14 @@ import type { Config } from 'tailwindcss'
 import defaultTheme from 'tailwindcss/defaultTheme'
 import typography from '@tailwindcss/typography'
 import scrollbar from 'tailwind-scrollbar'
+import themes from './src/themes.json'
+
+// Choose your themes here
+const LIGHT_THEME = 'github-light'
+const DARK_THEME = 'github-dark'
+
+const lightTheme = themes[LIGHT_THEME]
+const darkTheme = themes[DARK_THEME]
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -9,14 +17,21 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Sora', ...defaultTheme.fontFamily.sans]
+        sans: ['Cascadia Code', ...defaultTheme.fontFamily.sans]
       },
       colors: {
-        lightModeBg: '#E6E6E6',
-        darkModeBg: '#1A1A1A',
-        accentColor: '#A682FF',
-        lightModeText: 'black',
-        darkModeText: 'white'
+        lightModeBg: lightTheme.colors['background'],
+        darkModeBg: darkTheme.colors['background'],
+        accentColorDark1: darkTheme.colors['accentColor1'],
+        accentColorLight1: lightTheme.colors['accentColor1'],
+        accentColorDark2: darkTheme.colors['accentColor2'],
+        accentColorLight2: lightTheme.colors['accentColor2'],
+        accentColorDark3: darkTheme.colors['accentColor3'],
+        accentColorLight3: lightTheme.colors['accentColor3'],
+        accentColorDark4: darkTheme.colors['accentColor4'],
+        accentColorLight4: lightTheme.colors['accentColor4'],
+        lightModeText: lightTheme.colors['foreground'],
+        darkModeText: darkTheme.colors['foreground']
       },
       screens: {
         w500: { max: '500px' },
@@ -29,7 +44,11 @@ export default {
             '--tw-prose-kbd': theme('colors.lightModeText'),
             '--tw-prose-quote-borders': theme('colors.lightModeText'),
             '--tw-prose-bullets': theme('colors.lightModeText'),
-            '--tw-prose-code': theme('colors.lightModeText')
+            '--tw-prose-code': theme('colors.lightModeText'),
+            '--tw-prose-headings': theme('colors.accentColorLight1'),
+            'pre': {
+              'background-color': 'transparent !important'
+            }
           }
         },
         darkMode: {
@@ -37,7 +56,11 @@ export default {
             '--tw-prose-kbd': theme('colors.darkModeText'),
             '--tw-prose-quote-borders': theme('colors.darkModeText'),
             '--tw-prose-bullets': theme('colors.darkModeText'),
-            '--tw-prose-code': theme('colors.darkModeText')
+            '--tw-prose-code': theme('colors.darkModeText'),
+            '--tw-prose-headings': theme('colors.accentColorDark1'),
+            'pre': {
+              'background-color': 'transparent !important'
+            }
           }
         }
       })

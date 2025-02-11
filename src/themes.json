@@ -1,0 +1,52 @@
+{
+  "dark-plus": {
+      "colors": {
+        "background": "#111111",
+        "foreground": "#D4D4D4",
+        "accentColor1": "#9CDCFE",
+        "accentColor2": "#C586C0",
+        "accentColor3": "#CE9178",
+        "accentColor4": "#DCDCAA"
+      }
+  },
+  "light-plus": {
+      "colors": {
+        "background": "#FFFFFF",
+        "foreground": "#1E1E1E",
+        "accentColor1": "#001080",
+        "accentColor2": "#AF00DB",
+        "accentColor3": "#A31515",
+        "accentColor4": "#0000FF"
+    }
+  },
+  "dracula": {
+    "colors": {
+        "background": "#2D2D2D",
+        "foreground": "#F8F8F2",
+        "accentColor1": "#FF76C7",
+        "accentColor2": "#62D6E8",
+        "accentColor3": "#BD93F9",
+        "accentColor4": "#FFB86C"
+    }
+  },
+  "github-dark": {
+    "colors": {
+        "background": "#0D1117",
+        "foreground": "#C9D1D9",
+        "accentColor1": "#79C0FF",
+        "accentColor2": "#FFA657",  
+        "accentColor3": "#7EE787",
+        "accentColor4": "#A5D6FF"
+    }
+  },
+  "github-light": {
+    "colors": {
+        "background": "#FFFFFF",
+        "foreground": "#1E1E1E",
+        "accentColor1": "#CF222E",
+        "accentColor2": "#8250DF",
+        "accentColor3": "#8250DF",
+        "accentColor4": "#0550AE"
+    }
+  }
+}
