@@ -1,3 +1,5 @@
+![Terminal](./public/screen-terminal-light.webpg)
+
 # Terminal
 
 Terminal is a minimalistic terminal-inspired astro theme for blogs.
