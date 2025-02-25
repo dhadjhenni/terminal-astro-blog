@@ -1,4 +1,4 @@
-![Terminal](./public/screen-terminal-light.webpg)
+![Terminal](./public/screen-terminal-light.webp)
 
 # Terminal
 
