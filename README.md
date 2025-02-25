@@ -6,7 +6,7 @@ It's based from the minimalistic theme from [ekmas](https://github.com/ekmas).
 
 ## Get started
 
-[Create a new repo](https://github.com/ekmas/minimal/generate) from this template.
+[Create a new repo](https://github.com/dhadjhenni/terminal-astro-blog/generate) from this template.
 
 ## Features
 
@@ -28,6 +28,32 @@ It's based from the minimalistic theme from [ekmas](https://github.com/ekmas).
 - You can also customize colors of entire layout by changing colors in tailwind config.
 - You can customize code blocks config by changing `expressiveCode` object in astro config. Visit [expressive-code docs](https://expressive-code.com/reference/configuration) for more info.
 - To change code blocks theme, you'll have to update themes both in `themes` array and in `config.ts`
+
+## How to switch themes
+
+- Go to `tailwind.config.ts` and change the theme in the `extend` object.
+
+```
+// Choose your themes here
+const LIGHT_THEME = 'github-light'
+const DARK_THEME = 'github-dark'
+```
+
+Themes available:
+- dracula
+- nord
+- one-light
+- one-dark
+- github-light
+- github-dark
+- solarized-light
+- solarized-dark
+- vitesse-light
+- vitesse-dark
+- one-light-pro
+- one-dark-pro
+- material-theme-light
+- material-theme-dark
 
 ## How to add new post
 

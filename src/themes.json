@@ -29,6 +29,16 @@
         "accentColor4": "#FFB86C"
     }
   },
+  "nord": {
+    "colors": {
+        "background": "#2e3440ff",
+        "foreground": "#ECEFF4",
+        "accentColor1": "#81A1C1",
+        "accentColor2": "#8FBCBB",
+        "accentColor3": "#A3BE8C",
+        "accentColor4": "#B48EAD"
+    }
+  },
   "github-dark": {
     "colors": {
         "background": "#0D1117",
@@ -47,6 +57,106 @@
         "accentColor2": "#8250DF",
         "accentColor3": "#8250DF",
         "accentColor4": "#0550AE"
+    }
+  },
+  "solarized-dark": {
+    "colors": {
+        "background": "#002B36",
+        "foreground": "#839496",
+        "accentColor1": "#2AA198",
+        "accentColor2": "#DC322F",
+        "accentColor3": "#B58900",
+        "accentColor4": "#268BD2"
+    }
+  },
+  "solarized-light": {
+    "colors": {
+        "background": "#FDF6E3",
+        "foreground": "#657B83",
+        "accentColor1": "#2AA198",
+        "accentColor2": "#DC322F",
+        "accentColor3": "#B58900",
+        "accentColor4": "#268BD2"
+    }
+  },
+  "vitesse-dark": {
+    "colors": {
+        "background": "#121212",
+        "foreground": "#D4D4D4",
+        "accentColor1": "#4D9375",
+        "accentColor2": "#BD976A",
+        "accentColor3": "#C98A7D",
+        "accentColor4": "#C98A7D"
+    }
+  },
+  "vitesse-light": {
+    "colors": {
+        "background": "#FFFFFF",
+        "foreground": "#121212",
+        "accentColor1": "#4D9375",
+        "accentColor2": "#BD976A",
+        "accentColor3": "#C98A7D",
+        "accentColor4": "#C98A7D"
+    }
+  },
+  "min-dark": {
+    "colors": {
+        "background": "#1f1f1f",
+        "foreground": "#ffffff",
+        "accentColor1": "#F97583",
+        "accentColor2": "#B392F0",
+        "accentColor3": "#FFAB70",
+        "accentColor4": "#FFAB70"
+    }
+  },
+  "min-light": {
+    "colors": {
+        "background": "#FFFFFF",
+        "foreground": "#24292EFF",
+        "accentColor1": "#D32F2F",
+        "accentColor2": "#1976D2",
+        "accentColor3": "#22863A",
+        "accentColor4": "#22863A"
+    }
+  },
+  "one-dark-pro": {
+    "colors": {
+        "background": "#282c34",
+        "foreground": "#ABB2BF",
+        "accentColor1": "#C678DD",
+        "accentColor2": "#E5C07B",
+        "accentColor3": "#E06C75",
+        "accentColor4": "#98C379"
+    }
+  },
+  "one-light-pro": {
+    "colors": {
+        "background": "#FAFAFA",
+        "foreground": "#383A42",
+        "accentColor1": "#A626A4",
+        "accentColor2": "#E45649",
+        "accentColor3": "#50A14F",
+        "accentColor4": "#4078F2"
+    }
+  },
+  "material-theme-dark": {
+    "colors": {
+        "background": "#212121",
+        "foreground": "#EEFFFF",
+        "accentColor1": "#C3E88D",  
+        "accentColor2": "#C792EA",
+        "accentColor3": "#89DDFF",
+        "accentColor4": "#C3E88D"
+    }
+  },
+  "material-theme-light": {
+    "colors": {
+        "background": "#FAFAFA",
+        "foreground": "#212121",
+        "accentColor1": "#39ADB5",
+        "accentColor2": "#9C3EDA",
+        "accentColor3": "#E53935",
+        "accentColor4": "#91B859"
     }
   }
 }
