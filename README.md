@@ -4,6 +4,8 @@ Terminal is a minimalistic terminal-inspired astro theme for blogs.
 
 It's based from the minimalistic theme from [ekmas](https://github.com/ekmas).
 
+[Demo](https://terminal-astro.netlify.app/).
+
 ## Get started
 
 [Create a new repo](https://github.com/dhadjhenni/terminal-astro-blog/generate) from this template.
@@ -54,6 +56,8 @@ Themes available:
 - one-dark-pro
 - material-theme-light
 - material-theme-dark
+
+New themes can be added to the `src/themes.json` file.
 
 ## How to add new post
 
